@@ -2,7 +2,7 @@ install
 text
 
 # cdrom
-url --mirror-url=http://mirror.centos.org/centos/6/os/x86_64
+url --mirrorlist=http://mirror.centos.org/centos/6/os/x86_64
 
 lang en_US.UTF-8
 keyboard us
