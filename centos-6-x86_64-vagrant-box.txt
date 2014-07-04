@@ -2,7 +2,7 @@ install
 text
 
 # cdrom
-url --mirrorlist=http://mirror.centos.org/centos/6/os/x86_64
+url --url=http://ftp.astral.ro/distros/centos/6/os/x86_64/
 
 lang en_US.UTF-8
 keyboard us
@@ -25,6 +25,7 @@ rootpw --lock
 
 # firewall --disabled
 # selinux --permissive
+selinux --enforcing
 
 skipx
 
